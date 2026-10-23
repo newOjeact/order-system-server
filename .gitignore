@@ -1,0 +1,23 @@
+# 敏感配置，严禁提交
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 日志与临时文件
+*.log
+temp_*.py
+uvicorn_*.log
+
+# 本地数据库（含测试数据，不入库）
+*.db
+*.db-journal
+
+# IDE
+.idea/
+.vscode/
